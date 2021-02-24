@@ -8,3 +8,10 @@ h2 {
 font-style: oblique;
 color: darkblue;
 }
+section class="section1" {
+	all: unset;
+	color: white;
+	background-color: lightgreen;
+	font-size: 20px;
+}
+	
