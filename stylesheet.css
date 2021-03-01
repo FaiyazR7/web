@@ -5,6 +5,7 @@ body {
 	
 }
 h1{
+
 padding-top: 60px;
 font-style: oblique;
 color: darkblue;
@@ -44,6 +45,10 @@ li a {
 	margin: 0;
 	
 }
-li a:hover {
+li a:hover:not(.active) {
+	background-color: cyan;
+}
+
+.active {
 	background-color: cyan;
 }
